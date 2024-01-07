@@ -32,7 +32,7 @@ function contains(selector, text) {
 // Get all buttons with the text "Download now"
 const downloadButtons = contains('button', 'Download now');
 
-// Click each button with a delay of 1 second
+// Click each button with a delay of 1/5 second
 downloadButtons.forEach((button, index) => {
     setTimeout(() => {
         button.click();
